@@ -1,24 +1,7 @@
-# qtav-mdk-demo
+# Qt Examples
 
-#### 介绍
+- qmdkplay(QMDKWindow class): the simplest example, but should be good enough for most cases. Change QOpenGLWindow to QOpenGLWidget if needed.
+- **qmlrhi**: **Recommended for QtQuick**. support qt>=5.14/qt6 RHI, and qt<5.14 via direct OpenGL. Currently supports Vulkan, OpenGL, D3D11 and Metal
+- qml: render to opengl framebuffer object
 
-
-SDK 下载地址：https://sourceforge.net/projects/mdk-sdk/files/
-
-官方SDK 说明文档： https://github.com/wang-bin/mdk-sdk
-
-
-## 问题
-
-开发环境：
-
-- Qt 5.15.2 MinGW 64-bit
-- Windows 10
-- MDK: MDK 0.15.0
-
-现象：编译运行后，选择本地视频文件打开，视频无画面，只有声音
-
-https://github.com/kevinlq/MDK-Example.git
-
-
-
+To display log in qtcreator, call `setLogHandler()` to redirect log message to `qDebug()`
